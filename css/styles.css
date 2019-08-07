@@ -1,0 +1,123 @@
+
+
+body {
+  font-family: input-serif, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f7f9fc;
+  text-align: center;
+}
+
+.content {
+  background-color: white;
+  width: 300px;
+  height: 100%;
+  margin:  0px auto;
+  padding: 70px 20px 10px;
+}
+
+.content p {
+  padding: 0px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #669CB3;
+}
+
+h2 {
+  color: #607996;
+}
+
+ul, li {
+  margin:0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: none;
+}
+
+.btn-blue {
+  margin: 70px auto;
+  background-color: #669CB3;
+  width: 270px;
+  height: 50px;
+  padding-top: 25px;
+  border-radius: 4px;
+  box-shadow: 0 4px 15px rgba(0,0,0,.1);
+}
+
+.btn-blue:hover {
+  background-color: #607996;
+}
+
+.btn-blue a {
+  color: white;
+}
+
+.img-circle {
+  margin: 50px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.skill-tile {
+  margin: 10px 10px;
+  padding: 50px 30px 60px;
+  border-radius: 7px;
+  box-shadow: 0 5px 20px rgba(0,0,0,.05);
+}
+
+.social {
+  margin: 70px;
+}
+
+.social a:hover {
+  color: #607996;
+}
+
+.social h2 {
+  color: black;
+}
+
+.list-inline > li {
+  font-size: 40px;
+  margin: 10px 10px;
+  display: inline-block;
+}
+
+/* MMMMM.  EEEEEE.  DDDDDD.   IIIIII.  AAAAAAA*/
+
+@media (min-width: 600px) {
+
+  .content {
+    width: 550px;
+  }
+
+  .content p {
+    padding: 0px 30px;
+  }
+
+}
+
+
+@media (min-width: 900px) {
+
+  .content {
+    width: 900px;
+  }
+
+  .skill-tile {
+    margin: 30px 60px;
+    padding: 50px 30px 60px;
+  }
+
+  .list-inline > li {
+    margin: 50px 10px;
+  }
+
+}
+
